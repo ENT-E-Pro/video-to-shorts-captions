@@ -1,0 +1,20 @@
+{
+  "events": {
+    "apify-actor-start": {
+      "title": "Actor start",
+      "price": 5e-05
+    },
+    "short-created": {
+      "title": "Short created",
+      "description": "One rendered vertical 9:16 MP4 with burned-in captions, thumbnail and SRT (primary event). Failed clips are free.",
+      "price": 0.08,
+      "isPrimary": true
+    },
+    "clip-minute": {
+      "title": "Short video minute",
+      "description": "Per started minute of output short video (1080x1920 or 720x1280), including transcription and caption rendering. Up to 0.5 s of padding is ignored when rounding.",
+      "price": 0.12
+    }
+  },
+  "passPlatformUsageToUser": false
+}

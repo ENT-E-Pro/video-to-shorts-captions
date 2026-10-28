@@ -1,0 +1,5 @@
+apify>=4.1,<5
+httpx>=0.27
+faster-whisper==1.2.1
+av>=11,<16
+ctranslate2==4.6.0  # 4.8.x int8 CPU kernels give garbage/empty output on some Xeons

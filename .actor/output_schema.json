@@ -1,0 +1,18 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Vertical shorts",
+  "properties": {
+    "results": {
+      "type": "string",
+      "title": "Results",
+      "description": "One dataset row per clip: status, MP4 download URL, thumbnail, captions .srt URL, transcript, timing, or an error message.",
+      "template": "{{links.apiDefaultDatasetUrl}}/items?view=overview"
+    },
+    "files": {
+      "type": "string",
+      "title": "Video files",
+      "description": "Key-value store holding the rendered MP4 shorts, JPG thumbnails and SRT captions.",
+      "template": "{{links.apiDefaultKeyValueStoreUrl}}/keys"
+    }
+  }
+}

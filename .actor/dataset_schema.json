@@ -1,0 +1,45 @@
+{
+  "actorSpecification": 1,
+  "views": {
+    "overview": {
+      "title": "Shorts",
+      "transformation": {
+        "fields": [
+          "sourceUrl",
+          "status",
+          "thumbnailUrl",
+          "videoUrl",
+          "startSeconds",
+          "endSeconds",
+          "durationSeconds",
+          "mode",
+          "resolution",
+          "captioned",
+          "language",
+          "captionsSrtUrl",
+          "sizeBytes",
+          "billedMinutes",
+          "warning",
+          "error"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "thumbnailUrl": {
+            "label": "Preview",
+            "format": "image"
+          },
+          "videoUrl": {
+            "label": "MP4",
+            "format": "link"
+          },
+          "captionsSrtUrl": {
+            "label": "SRT",
+            "format": "link"
+          }
+        }
+      }
+    }
+  }
+}
