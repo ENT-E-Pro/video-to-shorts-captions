@@ -89,7 +89,7 @@ Use `cropPosition` to keep each speaker in frame when they sit left or right of 
 
 ### Agent workflow: transcript, then pick moments, then render shorts
 
-1. Get a timed transcript of the long video from any Whisper-based transcription tool.
+1. Get a timed transcript of the long video with [Video to Captions](https://apify.com/ent-e/video-to-captions-whisper) (or any Whisper-based transcription tool).
 2. Let your LLM choose 3–5 moments with start and end times.
 3. Send them here as `clips`.
 
@@ -227,5 +227,5 @@ Every tool takes a public file URL, needs nothing installed, charges per file, d
 - **[Media Converter for AI Agents (FFmpeg)](https://apify.com/ent-e/media-converter-ffmpeg)**: audio/video to MP3, Whisper-ready 16 kHz WAV, MP4, WebM, GIF or thumbnails, with trim and batch.
 - **[Image Converter & Compressor](https://apify.com/ent-e/image-converter-compressor)**: convert to WebP or AVIF, compress to a target file size, resize, strip EXIF/GPS.
 - **[Podcast Loudness Normalizer](https://apify.com/ent-e/podcast-loudness-normalizer)**: normalize to -16, -14, -23 or -24 LUFS with a true-peak ceiling, plus a before/after report.
-- **Video to Captions** (coming soon): SRT, VTT, TXT and word-level JSON from any video or audio URL, with Whisper.
+- **[Video to Captions](https://apify.com/ent-e/video-to-captions-whisper)**: SRT, VTT, TXT and word-level JSON from any video or audio URL, with Whisper.
 - **[Video to Shorts](https://apify.com/ent-e/video-to-shorts-captions)**: vertical 9:16 clips with burned-in animated captions for TikTok, Reels and Shorts.
